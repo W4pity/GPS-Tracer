@@ -11,6 +11,7 @@ import android.view.View;
  */
 public class CustomView extends View {
 
+    public boolean started = false;
     public CustomView(Context c) {
         super(c);
 

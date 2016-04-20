@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,6 +13,22 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        final Button BStart = (Button) findViewById(R.id.start);
+        BStart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                CustomView cv = (CustomView) findViewById(R.id.Cv);
+                cv.started = !cv.started;
+                if(cv.started)
+                    BStart.setText("Stop Tracking");
+                else
+                    BStart.setText("Start Tracking");
+
+            }
+        });
+
+
     }
 
     @Override
