@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:id="@+id/ly">
+    <com.example.w4pity.gpstracer.CustomView
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:id="@+id/Cv"
+        android:background="@color/blue"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Total: 20"
+        android:id="@+id/textView1"
+        android:layout_weight="0.48" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Total: 20"
+        android:id="@+id/textView"
+        android:layout_weight="0.48" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Marked: 0"
+        android:id="@+id/tv2"
+        android:layout_weight="0.48" />
+</LinearLayout>
