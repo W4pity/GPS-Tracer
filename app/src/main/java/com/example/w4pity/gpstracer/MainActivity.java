@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     }
 
 
-    
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -167,6 +167,8 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         return true;
     }
 
+
+    
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
