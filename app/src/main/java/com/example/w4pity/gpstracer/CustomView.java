@@ -54,10 +54,10 @@ public class CustomView extends View {
         white.setColor(0xFFFFFFFF);
         red.setColor(Color.RED);
     }
-
+//draw
     public void onDraw(Canvas canvas) {
 
-// call the superclass method
+
         super.onDraw(canvas);
 
         for(int i = 1; i<maxSpeedView; i++)
