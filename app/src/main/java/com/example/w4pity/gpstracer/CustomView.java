@@ -55,6 +55,8 @@ public class CustomView extends View {
         red.setColor(Color.RED);
     }
 //draw
+
+    
     public void onDraw(Canvas canvas) {
 
 
